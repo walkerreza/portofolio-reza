@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="particles.js-master/particles.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.min.js"></script>
+    <script>pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.worker.min.js';</script>
+    
+      <!-- Script lainnya -->
+      <!-- Script lainnya -->
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+      <script type="text/javascript">
+        (function() {
+          emailjs.init("cZ0EUx1Addn3i7KAM");
+        })();
+      </script>
+
+    
+
+  </head>
+  <body>
+    <div id="particles-js"></div>
+<header class="header">
+  <a href ="#home" class ="logo">
+    MUHAMMAD <span>ANKA REZA</span>
+  </a>
+  <i class ="bx bx-menu" id="menu-icon"></i>
+
+  <nav class="navbar">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#services">Services</a>
+    <a href="#project">Project</a>
+    <a href="#certificate">Certificate</a>
+    <a href="#contact">Contact</a>
+  </nav>
+<button class="gradient-btn" onclick="contactMe()">Contact Me</button>
+
+<label class="switch">
+  <input type="checkbox" id="theme-toggle">
+  <span class="slider"></span>
+</label>
+
+</header>
+  <section class="home" id="home">
+    <div class="home-content">
+      <h1>Hi, it's <span>Reza</span></h1>
+      <h3>I'm a <span class="text-animation"><span></span></span></h3>
+      <p>
+        Saya Muhammad Anka Reza, saya adalah IT support, teknisi jaringan, dan pengembang web. saya memiliki pengalaman dalam menginstalasi, mengonfigurasi, dan memelihara perangkat IT serta jaringan komputer. Saya juga memiliki pengalaman dalam pengembangan web menggunakan HTML, CSS, dan JavaScript.
+      </p>
+      <div class="social-icons">
+        <a href="https://github.com/walkerreza"><i class="bx bxl-github"></i></a>
+        <a href="https://www.linkedin.com/in/muhammad-anka-reza-620a0b2b7/"><i class="bx bxl-linkedin-square"></i></a>
+        <a href="https://www.instagram.com/toxickers002/"><i class="bx bxl-instagram-alt"></i></a>
+        <a href="https://x.com/Toxickers1"><i class="bx bxl-twitter"></i></a>
+      </div>
+      <div class="btn-group">
+        <a href="#" class="btn" onclick="contactMe()">Hire</a>
+        <a href="#contact" class="btn">Contact</a>
+      </div>
+    </div>
+    <div class="home-img">
+      <img src="image2.jpg" alt="">
+    </div>
+  </section>
+  <section class="about" id="about">
+
+    <div class="about-img">
+      <img src ="image2.jpg" alt="">
+    </div>
+
+    <div class="about-content">
+    <h2>About <span>Me</span></h2>
+      <p class="about-text">
+        <span class="short-text">Saya adalah seorang IT Support, teknisi jaringan, dan pengembang web yang berdedikasi dengan pengalaman luas dalam bidang teknologi informasi...</span>
+        <span class="full-text hidden">Saya memiliki keahlian dalam menginstalasi, mengonfigurasi, dan memelihara berbagai perangkat IT serta infrastruktur jaringan komputer. Dalam pengembangan web, saya menguasai HTML, CSS, dan JavaScript untuk menciptakan situs web yang responsif dan menarik. Saya juga memiliki kemampuan dalam troubleshooting hardware dan software, manajemen server, serta implementasi kebijakan keamanan IT. Dengan komitmen untuk terus belajar dan mengikuti perkembangan teknologi terbaru, saya siap memberikan solusi teknologi yang efektif dan inovatif untuk setiap tantangan.</span>
+      </p>
+      <button class="btn read-more-btn" onclick="toggleAboutText()">Read More</button>
+    </div>
+  </section>
+
+  <section class="education" id="education">
+    <h2 class="heading">Education</h2>
+
+    <div class="timeline-items">
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+                <div class="timeline-date">2011-2017</div>
+                <div class="timeline-content">
+                    <h3>SDN Pasiraman 03</h3>
+                    <p>Memulai perjalanan pendidikan di SDN Pasiraman 03, di mana saya mengembangkan dasar-dasar pembelajaran dan keterampilan sosial yang kuat. Masa-masa ini membentuk fondasi penting untuk pendidikan selanjutnya.</p>
+                </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+                <div class="timeline-date">2018-2021</div>
+                <div class="timeline-content">
+                    <h3>SMP Negeri 01 Kademangan</h3>
+                    <p>Di SMP Negeri 01 Kademangan, saya mengalami pertumbuhan akademik dan pribadi yang signifikan. Aktif dalam berbagai kegiatan ekstrakurikuler sambil mempertahankan prestasi akademik yang baik.</p>
+                </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+                <div class="timeline-date">2021-2023</div>
+                <div class="timeline-content">
+                    <h3>SMK Negeri 01 Kademangan</h3>
+                    <p>Melanjutkan ke SMK Negeri 01 Kademangan, di mana saya memfokuskan diri pada pengembangan keterampilan teknis dan praktis. Pengalaman ini membuka wawasan saya tentang dunia teknologi dan industri.</p>
+                </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+                <div class="timeline-date">2023-Sekarang</div>
+                <div class="timeline-content">
+                    <h3>Akademi Komunitas Negeri Putra Sang Fajar</h3>
+                    <p>Saat ini menempuh pendidikan di AKN Putra Sang Fajar, fokus pada pengembangan keahlian profesional dan akademik. Aktif dalam proyek-proyek inovatif dan terus mengembangkan keterampilan dalam bidang teknologi.</p>
+                </div>
+        </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <h2 class="heading">Services</h2>
+    <div class="services-container">
+      <div class="service-box">
+        <div class="service-info">
+          <i class="bx bxl-figma"></i>
+          <h4>UI/UX Design</h4>
+          <p>Sebagai UI/UX Designer profesional, saya menawarkan layanan desain antarmuka pengguna yang komprehensif menggunakan Figma. Keahlian saya mencakup penelitian pengguna, wireframing, prototyping, dan pengujian kegunaan untuk menciptakan pengalaman digital yang intuitif dan menarik. Saya menerapkan prinsip-prinsip desain modern untuk menghasilkan solusi yang memenuhi kebutuhan pengguna dan tujuan bisnis.</p>
+        </div>
+      </div>
+      <div class="service-box">
+        <div class="service-info">
+          <i class="bx bxl-react"></i>
+          <h4>Frontend Development</h4>
+          <p>Sebagai Frontend Developer berpengalaman, saya menyediakan layanan pengembangan antarmuka web menggunakan teknologi terkini seperti React.js, HTML5, CSS3, dan JavaScript modern. Saya memiliki keahlian dalam membangun komponen yang dapat digunakan kembali, mengoptimalkan performa website, dan mengimplementasikan desain responsif untuk berbagai ukuran perangkat. Fokus utama saya adalah menciptakan pengalaman pengguna yang mulus dan interaktif.</p>
+        </div>
+      </div>
+      
+      <div class="service-box">
+        <div class="service-info">
+          <i class="bx bxl-nodejs"></i>
+          <h4>Backend Development</h4>
+          <p>Dalam pengembangan backend, saya menawarkan solusi server-side yang handal menggunakan Node.js dan berbagai framework modern. Layanan mencakup perancangan API RESTful, integrasi database, implementasi keamanan, dan optimasi performa server. Saya memastikan sistem backend yang saya kembangkan dapat menskalakan dengan baik dan memiliki keamanan tingkat tinggi untuk melindungi data sensitif.</p>
+        </div>
+      </div>
+      <div class="service-box">
+        <div class="service-info">
+          <i class="bx bx-network-chart"></i>
+          <h4>Network Engineer</h4>
+          <p>Sebagai Network Engineer bersertifikasi, saya menyediakan layanan perancangan dan implementasi infrastruktur jaringan enterprise. Keahlian saya meliputi konfigurasi router dan switch, manajemen keamanan jaringan, troubleshooting, dan optimasi performa jaringan. Saya juga berpengalaman dalam implementasi solusi cloud dan virtualisasi untuk meningkatkan efisiensi operasional.</p>
+        </div>
+      </div>
+  </section>
+
+  <section class="project" id="project">
+
+    <h2 class="heading">projects</h2>
+    <div class="project-box">
+    
+  <div class="project-card">
+    <img src="project_library.PNG" alt="">
+    <h3>library webs</h3>
+    <div class="btn" onclick="openProject('project_library.png', 'Library webs', 'projek ini adalah projek untuk pembuatan UI/UX website libary, project ini hanya sebagai konsep semata hanya untuk sebagai referensi design untuk frontend')">Review Project</div>
+  </div>
+
+  <div class="project-card">
+    <img src="project_ui_ux dibimbing.PNG" alt="">
+    <h3>Maxim app redesign</h3>
+    <div class="btn" onclick="openProject('project_ui_ux dibimbing.png', 'Maxim App redesign', 'Projek ini bertujuan untuk mendesain ulang aplikasi Maxim agar lebih user-friendly dan menarik.')">Review Project</div>
+  </div>
+
+  <div class="project-card">
+    <img src="project_figma_kebun.PNG" alt="">
+    <h3>myGARDEN</h3>
+    <div class="btn" onclick="openProject('project_figma_kebun.png', 'myGARDEN', 'Aplikasi inovatif untuk manajemen dan monitoring kebun pintar. Dilengkapi dengan fitur pemantauan kondisi tanaman, penjadwalan perawatan, dan sistem otomatisasi untuk peningkatan produktivitas pertanian.')">Review Project</div>
+  </div>
+
+  <div class="project-card">
+    <img src="Dashboard Desktop.png" alt="Dashboard Peminjaman Alat">
+    <h3> Website Peminjaman<br> Alat lab (alab)</h3>
+    <div class="btn" onclick="openProject('Dashboard Desktop.png', 'Dashboard Peminjaman Alat Lab', 'Sebuah dashboard yang dirancang untuk mengelola sistem peminjaman alat laboratorium. Dashboard ini memungkinkan admin untuk melacak inventaris, mengelola permintaan peminjaman, dan memantau status peralatan laboratorium secara real-time.')">Review Project</div>
+  </div>
+
+  <div class="project-card">
+    <img src="hotel.jpg" alt="Dashboard Hotel">
+    <h3>Hotelier: Hotel Booking</h3>  
+    <div class="btn" onclick="openProject('hotel.jpg', 'Hotel Booking Dashboard', 'Dashboard sistem pemesanan kamar hotel yang komprehensif. Fitur utama termasuk manajemen reservasi, pemantauan ketersediaan kamar, dan sistem pembayaran terintegrasi untuk memudahkan proses booking kamar hotel.')">Review Project</div>
+  </div>
+  
+
+  <div class="project-card">
+    <img src="project_topologi.png" alt="Network Topology">
+    <img src="project_topologi2.png" alt="Network Topology">
+    <h3>Enterprise Network Design (Additional Project)</h3>
+    <div class="btn" onclick="openProject('project_topologi.png', 'Enterprise Network Topology', 'Perancangan topologi jaringan enterprise menggunakan Cisco Packet Tracer. Proyek ini mencakup implementasi routing protokol, VLAN, keamanan jaringan, dan optimasi performa untuk mendukung infrastruktur jaringan skala besar.')">Review Project</div>
+  </div>
+  </section>
+
+  <div id="projectModal" class="modal">
+    <span class="close">&times;</span>
+    <div class="project-modal-content">
+      <img class="modal-content" id="projectImg">
+      <div class="project-description">
+        <h3 id="projectTitle"></h3>
+        <p id="projectDesc"></p>
+      </div>
+    </div>
+  </div>
+
+  <section class="certificate" id="certificate">
+    <h2 class="heading">My Certificates</h2>
+    <div class="certificate-box">
+      
+      <div class="certificate-card">
+        <img src="CERTIFICATE IMPORTANT/sertifikat_bnsp.jpeg" alt="Certificate BNSP">
+        <h3>Internet Interconnection Services</h3>
+        <p>Computer and Network Engineering BNSP</p>
+        <div class="cert-details">
+          <span class="date">Issued: 20 Maret 2023</span>
+          <span class="credential">No. 61924 2522 0000776 2023</span>
+        </div>
+        <a href="#" class="btn" onclick="openCertificate('CERTIFICATE IMPORTANT/sertifikat_bnsp.jpeg')">View Certificate</a>
+      </div>
+
+      <div class="certificate-card">
+        <img src="CERTIFICATE IMPORTANT/sertifikat_tkj.jpeg" alt="Certificate TKJ">
+        <h3>Teknik Komputer dan Jaringan</h3>
+        <p>SMK Negeri 01 Kademangan & PT. Indonesia Comnet Plus (ICON+)</p>
+        <div class="cert-details">
+          <span class="date">Issued: Maret 2023</span>
+          <span class="credential">No. 421.5/052/101.8.11.15/2023</span>
+        </div>
+        <a href="#" class="btn" onclick="openCertificate('CERTIFICATE IMPORTANT/sertifikat_tkj.jpeg')">View Certificate</a>
+      </div>
+
+
+      <div class="certificate-card hidden-cert">
+        <img src="CERTIFICATE IMPORTANT/Muhammad_Anka_Reza20240916-72-jvlnew.jpg" alt="Certificate 2">
+        <h3>UI/UX beginner</h3>
+        <p>great learning academy - UI/UX for beginner</p>
+        <div class="cert-details">
+          <span class="date">Issued: Feb 2024</span>
+          <span class="credential">Credential ID: XYZ789</span>
+        </div>
+        <a href="#" class="btn" onclick="openCertificate('CERTIFICATE IMPORTANT/Muhammad_Anka_Reza20240916-72-jvlnew.jpg')">View Certificate</a>
+      </div>
+      
+      <div class="certificate-card hidden-cert">
+        <img src="CERTIFICATE IMPORTANT/img_58d8832de4fee500cdd9a3747ef80e49.png" alt="Alibaba Cloud Certificate">
+        <h3>Alibaba Cloud Certification</h3>
+        <p>Alibaba Cloud Academy</p>
+        <div class="cert-details">
+          <span class="date">Issued: Jan 2024</span>
+          <span class="credential">Credential ID: ACA-123</span>
+        </div>
+        <a href="#" class="btn" onclick="openCertificate('CERTIFICATE IMPORTANT/img_58d8832de4fee500cdd9a3747ef80e49.png')">View Certificate</a>
+      </div>
+      <div class="certificate-card hidden-cert">
+        <img src="CERTIFICATE IMPORTANT/Coursera_P997BV47TM4Z_page-0001.jpg" alt="Coursera Certificate">
+        <h3>Coursera Certification</h3>
+        <p>Coursera Online Learning Platform</p>
+        <div class="cert-details">
+          <span class="date">Issued: Mar 2024</span>
+          <span class="credential">Credential ID: P997BV47TM4Z</span>
+        </div>
+        <a href="#" class="btn" onclick="openCertificate('CERTIFICATE IMPORTANT/Coursera_P997BV47TM4Z_page-0001.jpg')">View Certificate</a>
+      </div>
+
+      <div class="certificate-card hidden-cert">
+        <img src="CERTIFICATE IMPORTANT/Muhammad Anka Reza - E-Certif SC UX Writing MySkill_page-0001.jpg" alt="UX Writing Certificate">
+        <h3>UX Writing</h3>
+        <p>MySkill Learning Platform</p>
+        <div class="cert-details">
+          <span class="date">Issued: Feb 2024</span>
+          <span class="credential">MySkill UX Writing Certificate</span>
+        </div>
+        <a href="#" class="btn" onclick="openCertificate('CERTIFICATE IMPORTANT/Muhammad Anka Reza - E-Certif SC UX Writing MySkill_page-0001.jpg')">View Certificate</a>
+      </div>
+
+      <div class="certificate-card hidden-cert">
+        <img src="CERTIFICATE IMPORTANT/Muhammad-Anka-Reza-Jaringan-Dasar-Sertifikat-Jaringan-Komputer-Dasar-LMS-ID-Networkers_page-0001.jpg" alt="Basic Networking Certificate">
+        <h3>Basic Computer Networking</h3>
+        <p>LMS ID Networkers</p>
+        <div class="cert-details">
+          <span class="date">Issued: Jan 2024</span>
+          <span class="credential">ID Networkers Basic Networking Certificate</span>
+        </div>
+        <a href="#" class="btn" onclick="openCertificate('CERTIFICATE IMPORTANT/Muhammad-Anka-Reza-Jaringan-Dasar-Sertifikat-Jaringan-Komputer-Dasar-LMS-ID-Networkers_page-0001.jpg')">View Certificate</a>
+      </div>
+
+      <div class="certificate-card hidden-cert">
+        <img src="CERTIFICATE IMPORTANT/awscloud.png" alt="AWS Cloud Certificate">
+        <h3>AWS Cloud Certification</h3>
+        <p>Amazon Web Services</p>
+        <div class="cert-details">
+          <span class="date">Issued: Mar 2024</span>
+          <span class="credential">AWS Cloud Certificate</span>
+        </div>
+        <a href="#" class="btn" onclick="openCertificate('CERTIFICATE IMPORTANT/awscloud.png')">View Certificate</a>
+      </div>
+
+      <div class="certificate-card hidden-cert">
+        <img src="CERTIFICATE IMPORTANT/dicoding devops.png" alt="DevOps Certificate">
+        <h3>DevOps Certification</h3>
+        <p>Dicoding Indonesia</p>
+        <div class="cert-details">
+          <span class="date">Issued: Mar 2024</span>
+          <span class="credential">Dicoding DevOps Certificate</span>
+        </div>
+        <a href="#" class="btn" onclick="openCertificate('CERTIFICATE IMPORTANT/dicoding devops.png')">View Certificate</a>
+      </div>
+
+      <div class="certificate-card hidden-cert">
+        <img src="CERTIFICATE IMPORTANT/dicodingAI.png" alt="AI Certificate">
+        <h3>Artificial Intelligence Certification</h3>
+        <p>Dicoding Indonesia</p>
+        <div class="cert-details">
+          <span class="date">Issued: Mar 2024</span>
+          <span class="credential">Dicoding AI Certificate</span>
+        </div>
+        <a href="#" class="btn" onclick="openCertificate('CERTIFICATE IMPORTANT/dicodingAI.png')">View Certificate</a>
+      </div>
+
+      <div class="certificate-card hidden-cert">
+        <img src="CERTIFICATE IMPORTANT/idnetwork.png" alt="Network Certificate">
+        <h3>Network Certification</h3>
+        <p>ID Network Academy</p>
+        <div class="cert-details">
+          <span class="date">Issued: Mar 2024</span>
+          <span class="credential">ID Network Certificate</span>
+        </div>
+        <a href="#" class="btn" onclick="openCertificate('CERTIFICATE IMPORTANT/idnetwork.png')">View Certificate</a>
+      </div>
+
+      <div class="certificate-card hidden-cert">
+        <img src="CERTIFICATE IMPORTANT/ui_ux_dibimbing.png" alt="UI/UX Certificate">
+        <h3>UI/UX Design Certification</h3>
+        <p>Dibimbing.id</p>
+        <div class="cert-details">
+          <span class="date">Issued: Mar 2024</span>
+          <span class="credential">Dibimbing UI/UX Certificate</span>
+        </div>
+        <a href="#" class="btn" onclick="openCertificate('CERTIFICATE IMPORTANT/ui_ux_dibimbing.png')">View Certificate</a>
+      </div>
+      
+    </div>
+
+    <div class="see-more-container">
+      <button class="btn see-more-btn" onclick="toggleCertificates()">
+        See More Certificates
+      </button>
+    </div>
+
+    <!-- Modal untuk menampilkan sertifikat -->
+    <div id="certModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="certImg">
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact<span>Me</span></h2>
+    <div class="container">
+      <form id="contact-form" onsubmit="return false">
+        <div class="input-group">
+          <div class="input-box">
+            <input type="text" name="from_name" id="from_name" placeholder="Nama Lengkap" required>
+            <input type="email" name="email_id" id="email_id" placeholder="Email" required>
+          </div>
+          <div class="input-box">
+            <input type="text" name="phone" id="phone" placeholder="Nomor Telepon" required>
+            <input type="text" name="subject" id="subject" placeholder="Subjek" required>
+          </div>
+        </div>
+        <div class="input-group-2">
+          <textarea name="message" id="message" placeholder="Pesan Anda" cols="30" rows="10" required></textarea>
+          <button type="button" id="button" class="btn" onclick="sendEmail()">Kirim Pesan</button>
+        </div>
+      </form>
+    </div>
+</section>
+
+</section>
+
+<footer class="footer">
+  <div class="social-icons">
+      <a href="https://github.com/walkerreza"><i class="bx bxl-github"></i></a>
+        <a href="https://www.linkedin.com/in/muhammad-anka-reza-620a0b2b7/"><i class="bx bxl-linkedin-square"></i></a>
+        <a href="https://www.instagram.com/toxickers002/"><i class="bx bxl-instagram-alt"></i></a>
+        <a href="https://x.com/Toxickers1"><i class="bx bxl-twitter"></i></a>
+  </div>
+
+  <ul class="list">
+    <li><a href="#">FAQ</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#project">Projects</a></li>
+    <li><a href="#contact">Contact</a></li> 
+  </ul>
+
+  <p class="copyright">
+    &copy; Muhammad Anka Reza | All Rights Reserved
+  </p>
+</footer>
+  <script src="script.js"></script>
+  <script src="particles.min.js"></script>
+  <script src="particles-config.js"></script>
+  <script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // Inisialisasi particles setelah DOM loaded
+    particlesJS('particles-js', particlesConfig);
+  });
+  </script>
+  </body>
+</html>
